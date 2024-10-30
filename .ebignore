@@ -1,0 +1,22 @@
+# Exclude virtual environments
+venv/
+newvenv/
+
+# Exclude cache and compiled files
+__pycache__/
+*.pyc
+
+# Exclude uploads or user-generated content
+uploads/
+
+# Exclude development and build files
+.git/
+.gitignore
+.env
+AWSCLIV2.pkg
+dependencies.txt
+runtime.txt
+Procfile
+
+# Exclude other unnecessary files
+*.DS_Store
